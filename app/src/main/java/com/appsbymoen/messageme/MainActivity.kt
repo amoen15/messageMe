@@ -1,6 +1,7 @@
 package com.appsbymoen.messageme
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -34,6 +35,13 @@ class MainActivity : AppCompatActivity() {
         tvAlreadyHaveAccount.setOnClickListener {
            val t = makeText(this, "You have account clicked!", LENGTH_LONG)
             t.show()
+
+
+            //Launch the login activity
+
+            val intent = Intent(this, LoginActivity::class.java)
+
+            startActivity(intent)
         }
 
 
