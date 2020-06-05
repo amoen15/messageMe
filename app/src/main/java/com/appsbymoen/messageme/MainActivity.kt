@@ -11,11 +11,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val email = editTextTextEmailAddress.text.toString()
-        val password = editTextTextPassword.text.toString()
 
-        Log.d("MainActivity", "Email is:" + email)
-        Log.d("MainActivity", "Password is:$password")
+
+        regButton.setOnClickListener {
+
+            val email = editTextTextEmailAddress.text.toString()
+            val password = editTextTextPassword.text.toString()
+
+            Log.d("MainActivity", "Email is:" + email)
+            Log.d("MainActivity", "Password is:$password")
+
+        }
 
     }
 }
