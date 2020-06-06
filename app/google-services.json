@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1095286151960",
+    "firebase_url": "https://messageme-2adde.firebaseio.com",
+    "project_id": "messageme-2adde",
+    "storage_bucket": "messageme-2adde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095286151960:android:26e0035c6818dc85859c6d",
+        "android_client_info": {
+          "package_name": "com.appsbymoen.messageme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095286151960-ak4a95350nfrvj30bbgsghism8vvi7m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMO3k81uUKkDBNFQVobB97eWzWZ0qQy-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095286151960-ak4a95350nfrvj30bbgsghism8vvi7m1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
